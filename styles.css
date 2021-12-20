@@ -1,0 +1,59 @@
+body{
+    font-family: Nunito;
+}
+
+textarea{
+    resize: none;
+}
+
+#main{
+    width: 25%;
+    margin: auto;
+    border-radius: 25%;
+}
+
+.card{
+    background-color: goldenrod;
+    border-radius: 8px;
+    margin-bottom: 4px;
+}
+
+.goal-cb{
+    margin-right: 14px;
+}
+
+.delete-card-btn{
+    background: transparent;
+    border: transparent;
+    float: right;
+    transition-duration: 0.2s;
+}
+.delete-card-btn:hover{
+    color: white;
+}
+
+#createBtn{
+    color: white;
+    border: solid 2px;
+    background-color: rgb(16, 125, 226);
+    border-color: rgb(16, 125, 226);
+    font-size: 14px;
+    font-family: Nunito;
+    border-radius: 8px;
+    transition-duration: 0.2s;
+    width: 30%;
+    height: 40px;
+    margin: 8px;
+}
+
+#createBtn:hover{
+    background-color:white;
+    color: black;   
+}
+
+#create-container{
+    margin: 16px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
